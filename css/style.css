@@ -474,7 +474,7 @@ header{
 }
 
 .landing-page-example {
-    max-width: 70%;
+    max-width: 90%;
     height: auto;
 }
 
@@ -482,4 +482,9 @@ header{
     color: var(--clr-accent-blue);
     white-space: nowrap;
     margin-bottom: .5em;
+}
+.webpage-design-items {
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+    
 }
