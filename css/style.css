@@ -415,8 +415,8 @@ header{
 
 /*footer*/
 .footer {
-    background: #111;
-    color: var(--clr--accent-pink);
+    background: var(--clr-light);
+    color: var(--clr-accent-blue);
     text-align: center;
     padding: 2em;
     font-size: var(--fs-h3);
@@ -487,4 +487,7 @@ header{
     display: grid;
     grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
     
+}
+.webpage-design-img {
+    padding-right: .5em;
 }
